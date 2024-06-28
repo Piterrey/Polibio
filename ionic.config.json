@@ -1,0 +1,7 @@
+{
+  "name": "Polibio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

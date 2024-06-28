@@ -1,0 +1,23 @@
+<ion-content>
+    <ion-item>
+        <ion-label position="floating">Numeri</ion-label>
+        <ion-input type="text" [(ngModel)]="numbers"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="floating">Traduzione</ion-label>
+        <ion-input type="text" [(ngModel)]="translation"></ion-input>
+    </ion-item>
+
+    <div class="button-container">
+        <ion-button class="square-button" color="light" (click)="onButtonClick(1)">1</ion-button>
+        <ion-button class="square-button" color="light" (click)="onButtonClick(2)">2</ion-button>
+        <ion-button class="square-button" color="light" (click)="onButtonClick(3)">3</ion-button>
+        <ion-button class="square-button" color="light" (click)="onButtonClick(4)">4</ion-button>
+        <ion-button class="square-button" color="light" (click)="onButtonClick(5)">5</ion-button>
+    </div>
+
+    <div style="margin-top: 20px;">
+        <ion-button expand="block" (click)="clear()">Clear</ion-button>
+    </div>
+</ion-content>
